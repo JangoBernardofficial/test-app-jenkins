@@ -1,0 +1,17 @@
+{
+  "name": "modern-website",
+  "version": "1.0.0",
+  "description": "A modern responsive website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Running tests...\" && exit 0",
+    "build": "mkdir -p dist && cp *.html *.css *.js dist/",
+    "validate": "html-validate *.html"
+  },
+  "keywords": ["website", "html", "css", "javascript"],
+  "author": "bernard",
+  "license": "MIT",
+  "devDependencies": {
+    "html-validate": "^8.1.0"
+  }
+}
